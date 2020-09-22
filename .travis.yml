@@ -1,5 +1,8 @@
+arch:
+  - amd64
+  - ppc64le    
 language: java
-#install: sudo apt-get -y install libc6-i386
+install: sudo apt-get -y install maven
 script: mvn -V -B install
 dist: trusty
 notifications:
